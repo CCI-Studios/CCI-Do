@@ -1,0 +1,19 @@
+/*
+	TODO fix color
+*/
+a {
+	color: red;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+h1 { margin-bottom: 7px; }
