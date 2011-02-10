@@ -1,7 +1,23 @@
-body {}
+html, body {
+	height: 100%;
+}
+
+body {
+	background: black;
+	color: white;
+	font-family: "Century Gothic";
+	font-size: 14px;
+}
+
+body > div {
+	background: url(../images/body-mask.png) top center no-repeat;
+	min-height: 100%;
+}
 
 #wrapper {
-	margin: 60px auto 0;
+	margin: 0 auto 0;
+	padding: 60px 0;
+	position: relative;
 	width: 1194px;
 }
 
@@ -9,14 +25,39 @@ body {}
 	background: url(../images/background-mask.png) no-repeat;
 	padding: 13px;
 }
-#body > div {
+#body > div { /* image wrapper */
 	height: 736px;
+	position: relative;
+}
+#body > div > div { /* contents wrapper */
+	background: url(../images/content-bg.png) repeat-x;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	width: 100%;
+}
+body.home #body > div > div { 
+	background: black;
+	bottom: 31px;
+}
+#body > div > div > div { /* contents wrapper 2 */
+	background: url(../images/content-frill.png) 52px 0 repeat-y;
+	padding: 35px;
+}
+body.home #body > div > div > div {
+	background: none;
+	padding: 10px;
+	text-align: center;
 }
 
-#siteby {}
+#siteby {
+	position: absolute;
+	top: 726px;
+	left: -4px;
+}
 #footer {}
 
 
-
-body { background: url(../images/temp-bg.jpg); }
+/* temp */
+body { background: black url(../images/temp-bg.jpg) top center no-repeat; }
 #body > div { background: url(../images/temp1.jpg) no-repeat; }
