@@ -21,6 +21,8 @@
     </files>
 
     <positions>
+			<position>footer</position>
+			<position>hidden</position>
     </positions>
 
     <params>

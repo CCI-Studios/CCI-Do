@@ -1,0 +1,28 @@
+/* general style */
+.moduletable {}
+
+/* menus */
+.moduletable_hmenu {
+	font-size: 12px;
+}
+
+.moduletable_hmenu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.moduletable_hmenu li {
+	display: inline;
+	padding: 0 7px;
+}
+
+.moduletable_hmenu a { color: white; }
+.moduletable_hmenu a:hover, .moduletable_hmenu li.active a,
+.moduletable_hmenu li > span { 
+	color: #860036;
+	text-decoration: none;
+}
+
+
