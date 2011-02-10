@@ -1,9 +1,22 @@
-body {
-	background: red;
-}
+body {}
 
 #wrapper {
-	margin: 0 auto;
-	padding: 0 10px;
-	width: 940px;
+	margin: 60px auto 0;
+	width: 1194px;
 }
+
+#body {
+	background: url(../images/background-mask.png) no-repeat;
+	padding: 13px;
+}
+#body > div {
+	height: 736px;
+}
+
+#siteby {}
+#footer {}
+
+
+
+body { background: url(../images/temp-bg.jpg); }
+#body > div { background: url(../images/temp1.jpg) no-repeat; }

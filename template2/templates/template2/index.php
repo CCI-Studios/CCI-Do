@@ -11,7 +11,13 @@
 
 <body>
 	<div id="wrapper">
-		more stuff here
+		<div id="body"><div><div>
+			<jdoc:include type="component" />
+		</div></div></div>
+		<div id="siteby">Site By CCI Studios</div>
+		<div id="footer">
+			<jdoc:include type="modules" name="footer" style="xhtml" />
+		</div>
 	</div>	
 </body>
 </html>
