@@ -1,0 +1,17 @@
+.moduletable_menu {}
+.moduletable_menu ul {
+	list-style: none;
+}
+.moduletable_menu li {
+	float: left;
+	line-height: 50px; /* fixme */
+	text-align: center;
+	width: 14.28%; /* fixme */
+}
+.moduletable_menu {}
+
+
+/* top */
+#top .moduletable { float: left; padding-right: 10px; }
+#top .moduletable:first-child { margin-left: -50px; } /* fixme */
+

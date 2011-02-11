@@ -1,4 +1,35 @@
+body {
+	background-color: black;
+}
 
+#wrapper {
+	margin: 0 auto;
+	padding: 87px 57px 20px;
+	position: relative;
+	width: 1169px;
+}
+
+#top { color: white; }
+
+#body {
+	border: 1px solid #b5b5b5;
+	height: 642px;
+}
+
+#siteby {
+	right: -15px;
+	position: absolute;
+	bottom: 0;
+}
+
+
+
+
+/* test */
+#body { background-color: red; }
+
+
+/*
 
 #main {
 	background-color: black;
@@ -14,3 +45,4 @@
 	
 }
 
+*/
