@@ -18,6 +18,7 @@
 		</div>
 		
 		<div id="body">
+			<jdoc:include type="component" />
 			<div class="clear"></div>
 		</div>
 		
@@ -29,6 +30,10 @@
 			<jdoc:include type="modules" name="menu" style="xhtml" />
 			<div class="clear"></div>
 		</div>
+	</div>
+	
+	<div class="hidden">
+		<jdoc:include type="modules" name="hidden" style="raw" />
 	</div>
 	
 </body>

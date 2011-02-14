@@ -22,7 +22,8 @@
  
     <positions>
     	<position>top</position>
-    	<position>menu</position>    	
+    	<position>menu</position>
+    	<position>hidden</position>   	
     </positions>
  
     <params>
