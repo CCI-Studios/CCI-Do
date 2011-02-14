@@ -6,31 +6,31 @@ body {
 	margin: 0 auto;
 	padding: 87px 57px 20px;
 	position: relative;
-	width: 1169px;
+	width: 960px;
 }
 
-#top { color: white; }
+#top { 
+	color: white; 
+	padding: 0 0 10px 0;
+}
 
 #body {
+	background: url(../images/main-picture-1.jpg) no-repeat;
 	border: 1px solid #b5b5b5;
-	height: 642px;
+	height: 555px;
 }
 
 #siteby {
-	right: -15px;
+	right: 40px;
 	position: absolute;
-	bottom: 0;
+	bottom: 70px;
 }
 
-
-
-
-/* test */
-#body { background-color: red; }
-
-
+/* FIX ME */
+#menu {
+	background: url(../images/main-bottom-gradient.png) repeat-x ;
+}
 /*
-
 #main {
 	background-color: black;
 }

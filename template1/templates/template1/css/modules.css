@@ -1,14 +1,35 @@
-.moduletable_menu {}
+.moduletable_menu {
+}
+
+.moduletable_menu a {
+	color: white;
+	text-decoration: none;
+	line-height: 50px; /* fixme */
+	text-align: center;
+	width: 137px; /* fixme */
+	display: block;
+}
+
+.moduletable_menu a:hover{
+	text-decoration: underline;	
+}
+
 .moduletable_menu ul {
 	list-style: none;
 }
+
 .moduletable_menu li {
+	background: url(/templates/template1/images/separator.png) right center no-repeat;
 	float: left;
-	line-height: 50px; /* fixme */
-	text-align: center;
-	width: 14.28%; /* fixme */
+	
 }
-.moduletable_menu {}
+
+.moduletable_menu li:first-child > a, .moduletable_menu li:first-child > span{
+	background: url(../images/separator.png) left center no-repeat;
+}
+
+.moduletable_menu {
+}
 
 
 /* top */

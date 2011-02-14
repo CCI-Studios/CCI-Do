@@ -2,9 +2,9 @@
 <install version="1.5" type="template">
     <name>template1</name>
     <version>1.0</version>
-    <creationDate>February 9, 2011</creationDate>
-    <author>Jonathan Bennett</author>
-    <authorEmail>jbennett@ccistudios.com</authorEmail>
+    <creationDate>February 14, 2011</creationDate>
+    <author>Darren Murray</author>
+    <authorEmail>dmurray@ccistudios.com</authorEmail>
     <authorUrl>http://www.ccistudios.com</authorUrl>
     <copyright>Copyright 2010 - ccistudios.com</copyright>
     <license>GNU</license>
@@ -14,13 +14,15 @@
     </description>
  
     <files>
-				<filename>index.php</filename>
-				<folder>css</folder>
+		<filename>index.php</filename>
+		<folder>css</folder>
         <folder>html</folder>
         <folder>images</folder>
     </files>
  
     <positions>
+    	<position>top</position>
+    	<position>menu</position>    	
     </positions>
  
     <params>
