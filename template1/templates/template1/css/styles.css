@@ -1,3 +1,5 @@
 .clear { clear: both; }
 
 .hidden { display: none; }
+
+.content { padding: 36px; }

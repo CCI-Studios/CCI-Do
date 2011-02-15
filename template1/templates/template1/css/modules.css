@@ -4,9 +4,9 @@
 .moduletable_menu a {
 	color: white;
 	text-decoration: none;
-	line-height: 50px; /* fixme */
+	line-height: 115px; 
 	text-align: center;
-	width: 137px; /* fixme */
+	width: 137px; 
 	display: block;
 }
 
@@ -21,7 +21,6 @@
 .moduletable_menu li {
 	background: url(/templates/template1/images/separator.png) right center no-repeat;
 	float: left;
-	
 }
 
 .moduletable_menu li:first-child > a, .moduletable_menu li:first-child > span{
@@ -31,8 +30,8 @@
 .moduletable_menu {
 }
 
-
 /* top */
 #top .moduletable { float: left; padding-right: 10px; }
-#top .moduletable:first-child { margin-left: -50px; } /* fixme */
+#top .moduletable:first-child { margin-left: -50px; } 
+
 
