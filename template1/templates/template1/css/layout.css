@@ -1,0 +1,58 @@
+body {
+	background-color: black;
+}
+
+a { 
+	color: white; 
+	text-decoration: none;
+}
+
+#wrapper {
+	margin: 0 auto;
+	padding: 40px 57px 20px;
+	position: relative;
+	width: 960px;
+}
+
+#top { 
+	color: white; 
+	padding: 0 0 10px 0;
+	zoom: 1; /* IE fix */
+}
+
+#body {
+	border: 1px solid #b5b5b5;
+	height: 555px;
+}
+
+#siteby {
+	right: 40px;
+	position: absolute;
+	bottom: 140px;
+}
+
+#menu {
+	background: url(../images/main-bottom-gradient.png) repeat-x ;
+	padding: 2px 0;
+}
+
+#inner {
+	background: url(../images/about-picture-1.jpg) no-repeat;
+	border: 1px solid #b5b5b5;
+	height: 553px;
+	position: relative;
+}
+
+#sidebar{
+	background: url(../images/inner/sidebar-gradient.png) repeat-y;
+	height: 553px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 291px;
+	overflow-y: auto;
+}
+
+body.home #sidebar{ display:none ;}
+
+
