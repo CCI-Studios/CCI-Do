@@ -17,6 +17,7 @@ a {
 #top { 
 	color: white; 
 	padding: 0 0 10px 0;
+	zoom: 1; /* IE fix */
 }
 
 #body {
