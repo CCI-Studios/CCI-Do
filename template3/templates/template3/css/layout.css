@@ -1,3 +1,45 @@
 body {
 	background-color: black;
 }
+
+#leftsidebar {
+	background: url(../images/left-sidebar.png) top repeat-y;
+	height: 100%;
+	position: absolute;
+	width: 50px;
+	margin: 0;
+	z-index: 2;
+}
+
+#rightsidebar {
+	background-color: black;
+	background: url(../images/right-sidebar-dec.png) right top repeat-y;
+	height: 100%;
+	position: relative;
+	width: 300px;
+	z-index: 3;
+}
+
+#inner {
+	background: url(../images/content-bg.png) repeat-y;
+	height: 130px;
+	position: center;
+}
+
+#main {
+	background: url(../images/main-picture-1.png) top left no-repeat;
+	height: 100%;
+	width: 100%;
+}
+
+#menu {
+	background-color: black;
+	height: 100%;
+	width: 300px;	
+	position: center;
+}
+
+#menutitle {
+	background: url(../images/names.png) top center no-repeat;
+	padding: 150px 50px;
+}
