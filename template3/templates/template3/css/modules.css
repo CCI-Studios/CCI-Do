@@ -6,7 +6,6 @@
 	text-decoration: none;
 	line-height: 45px;
 	text-align: center;
-	width: 330px;
 	display: block;
 }
 
@@ -22,6 +21,6 @@
 	background: url(/templates/template3/images/menu-separator.png) top center no-repeat;
 }
 
-.moduletable_menu li:first child {
+.moduletable_menu li:first-child {
 	background: none;
 }

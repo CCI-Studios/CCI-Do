@@ -1,45 +1,49 @@
+html, body { height: 100%; }
+
 body {
 	background-color: black;
 }
 
-#leftsidebar {
+#left-sidebar {
 	background: url(../images/left-sidebar.png) top repeat-y;
 	height: 100%;
 	position: absolute;
+	top: 0;
 	width: 50px;
-	margin: 0;
-	z-index: 2;
 }
 
-#rightsidebar {
-	background-color: black;
+#left-sidebar > div {
+	margin: 400px 10px 400px 10px;
+}
+
+#right-sidebar {
 	background: url(../images/right-sidebar-dec.png) left top repeat-y;
 	height: 100%;
-	position: relative;
+	padding: 200px 0 0 13px;
+	position: absolute;
+	right: 0;
+	top: 0;
 	width: 300px;
-	z-index: 3;
 }
 
-#inner {
-	background: url(../images/content-bg.png) repeat-y;
-	height: 130px;
-	position: center;
+#right-sidebar > div {
+	background-color: black;
+	color: white;
+	text-align: center;
 }
 
 #main {
-	background: url(../images/main-picture-1.png) top left no-repeat;
+	background: url(../images/main-picture-1.png) top no-repeat;
+	-webkit-background-size: cover;
 	height: 100%;
-	width: 100%;
+	margin: 0 300px 0 50px;
 }
 
-#menu {
-	background-color: black;
-	height: 100%;
-	width: 300px;	
-	position: center;
+#inner {
+	padding: 250px 0 10px;
 }
 
-#menutitle {
-	background: url(../images/names.png) top center no-repeat;
-	padding: 150px 50px;
+#inner > div{
+	background: url(../images/content-bg.png) repeat-y;
+	margin: 0 50px;
 }
