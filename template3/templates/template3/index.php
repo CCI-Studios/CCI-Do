@@ -17,7 +17,7 @@ $testing = "true";
 <body>
     <div id="main">
         <div id="leftsidebar">
-            <img src="/templates/template3/images/left-sidebar-name.png" alt="page" />
+            <img src="/templasdfates/template3/images/left-sidebar-name.png" alt="page" />
             <div id="rightsidebar">
             </div>
         </div>
