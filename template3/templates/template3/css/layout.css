@@ -13,7 +13,7 @@ body {
 
 #rightsidebar {
 	background-color: black;
-	background: url(../images/right-sidebar-dec.png) right top repeat-y;
+	background: url(../images/right-sidebar-dec.png) left top repeat-y;
 	height: 100%;
 	position: relative;
 	width: 300px;
