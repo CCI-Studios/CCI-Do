@@ -7,36 +7,19 @@ if ($menu)
     $menu = $menu->alias;
 $testing = "true";
 ?> 
+
+<html>
 <head>
+	<jdoc:include type="head" />
+	
 	<link rel="stylesheet" href="/templates/template3/css/template.css" />
 </head>
-<html>
+
 <body>
 	<div id="main">
 		<div id="inner"><div>
 			component
-			<b>component</br>
-			<b>component</br>
-			<b>component</br>
-			<b>component</br>
-			<b>component</br>
-			<b>component</br>
-			<b>component</br>
-			<b>component</br>
-			<b>component</br>
-			<b>component</br>
-			<b>component</br>
-			<b>component</br>
-			<b>component</br>
-			<b>component</br>
-			<b>component</br>
-			<b>component</br>
-			<b>component</br>
-			<b>component</br>
-			<b>component</br>
-			<b>component</br>
-			<b>component</br>
-			</div></div>
+		</div></div>
 	</div>
 	
 	<div id="left-sidebar">
@@ -45,12 +28,13 @@ $testing = "true";
 		</div>
 	</div>
 	
-	<div id="right-sidebar">
-		<img src="/templates/template3/images/names.png" alt="names" />
-		<div>
-			October 15, 2011
-			<jdoc:include type="modules" name="menu" style="xhtml" />
-		</div>
-	</div>
+	<div id="right-sidebar"><div>
+		<jdoc:include type="modules" name="menu" style="xhtml" />
+		
+		<div id="siteby">
+			Site By <a href="http://www.ccistudios.com" target="_blank"> CCI Studios </a>
+		</div>			
+	</div></div>
+	
 </body>
 </html>

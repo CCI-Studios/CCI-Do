@@ -4,6 +4,11 @@ body {
 	background-color: black;
 }
 
+a {
+	color:white;
+	text-decoration: none;
+}
+
 #left-sidebar {
 	background: url(../images/left-sidebar.png) top repeat-y;
 	height: 100%;
@@ -19,7 +24,7 @@ body {
 #right-sidebar {
 	background: url(../images/right-sidebar-dec.png) left top repeat-y;
 	height: 100%;
-	padding: 200px 0 0 13px;
+	padding: 0 0 0 13px;
 	position: absolute;
 	right: 0;
 	top: 0;
@@ -28,6 +33,7 @@ body {
 
 #right-sidebar > div {
 	background-color: black;
+	padding: 200px 0 0 0;
 	color: white;
 	text-align: center;
 }
@@ -46,4 +52,12 @@ body {
 #inner > div{
 	background: url(../images/content-bg.png) repeat-y;
 	margin: 0 50px;
+}
+
+#siteby {
+	color: white;
+	text-decoration: none;
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
 }
