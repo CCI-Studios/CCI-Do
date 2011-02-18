@@ -15,7 +15,8 @@ $testing = "true";
 	<link rel="stylesheet" href="/templates/template3/css/template.css" />
 </head>
 
-<body>
+<body class="<?php echo $menu?>">
+	
 	<div id="main">
 		<div id="inner"><div>
 			component
@@ -36,5 +37,8 @@ $testing = "true";
 		</div>			
 	</div></div>
 	
+	<div class="hidden">
+		<jdoc:include type="modules" name="hidden" style="raw" />
+	</div>
 </body>
 </html>

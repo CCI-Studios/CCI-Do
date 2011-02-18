@@ -21,10 +21,10 @@
     </files>
  
     <positions>
-    	<position>leftsidebar</position>
+    	<position>left-sidebar</position>
     	<position>main</position>
     	<position>menu</position>
-    	<position>rightsidebar</position>
+    	<position>right-sidebar</position>
     </positions>
  
     <params>
