@@ -44,6 +44,9 @@ body.home #left-sidebar{ display:none ;}
 #main {
 	background: url(../images/main-picture-1.png) top no-repeat;
 	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	height: 100%;
 	margin: 0 300px 0 50px;
 }
