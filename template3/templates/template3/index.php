@@ -19,7 +19,7 @@ $testing = "true";
 	
 	<div id="main">
 		<div id="inner"><div>
-			component
+			<joc:include type="component" />
 		</div></div>
 	</div>
 	
