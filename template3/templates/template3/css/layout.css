@@ -10,23 +10,32 @@ a {
 	text-decoration: none;
 }
 
+#wrapper {
+	height: 100%;
+	min-height: 100%;
+	position: relative;
+}
+
 #left-sidebar {
 	background: url(../images/left-sidebar.png) top repeat-y;
-	height: 100%;
 	position: absolute;
+	min-height: 100%;
 	top: 0;
 	width: 50px;
 }
 
-body.home #left-sidebar{ display:none ;}
+body.home #left-sidebar { display: none; }
 
 #left-sidebar > div {
-	margin: 400px 10px 400px 10px;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	width: 50px;
 }
 
 #right-sidebar {
 	background: url(../images/right-sidebar-dec.png) left top repeat-y;
-	height: 100%;
+	min-height: 100%;
 	padding: 0 0 0 13px;
 	position: absolute;
 	right: 0;
@@ -47,22 +56,23 @@ body.home #left-sidebar{ display:none ;}
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	height: 100%;
+	min-height: 100%;
 	margin: 0 300px 0 50px;
 }
 
-body.home #main { margin-left: 0 ; }
+body.home #main { margin-left: 0; }
 
 #inner {
 	padding: 250px 0 10px;
 }
 
-#inner > div{
-	background: url(../images/content-bg.png) repeat-y;
+#inner > div {
+	background: url(../images/content-bg.png) repeat;
+	padding: 10px;
 	margin: 0 50px;
 }
 
-body.home #inner { display:none ;}
+body.home #inner { display:none; }
 
 #siteby {
 	color: white;
@@ -71,4 +81,6 @@ body.home #inner { display:none ;}
 	bottom: 5px;
 	right: 5px;
 }
+
+
 

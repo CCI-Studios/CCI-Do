@@ -16,26 +16,27 @@ $testing = "true";
 </head>
 
 <body class="<?php echo $menu?>">
+	<div id="wrapper">	
+		<div id="main">
+			<div id="inner"><div>
+				<jdoc:include type="component" />
+			</div></div>
+		</div>
 	
-	<div id="main">
-		<div id="inner"><div>
-			<joc:include type="component" />
+		<div id="left-sidebar">
+			<div>
+			<img src="/templates/template3/images/left-sidebar-name.png" alt="page" />
+			</div>
+		</div>
+	
+		<div id="right-sidebar"><div>
+			<jdoc:include type="modules" name="menu" style="xhtml" />
+		
+			<div id="siteby">
+				Site By <a href="http://www.ccistudios.com" target="_blank"> CCI Studios </a>
+			</div>			
 		</div></div>
 	</div>
-	
-	<div id="left-sidebar">
-		<div>
-		<img src="/templates/template3/images/left-sidebar-name.png" alt="page" />
-		</div>
-	</div>
-	
-	<div id="right-sidebar"><div>
-		<jdoc:include type="modules" name="menu" style="xhtml" />
-		
-		<div id="siteby">
-			Site By <a href="http://www.ccistudios.com" target="_blank"> CCI Studios </a>
-		</div>			
-	</div></div>
 	
 	<div class="hidden">
 		<jdoc:include type="modules" name="hidden" style="raw" />
