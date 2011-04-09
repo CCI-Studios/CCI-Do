@@ -2,5 +2,5 @@
 defined('_JEXEC') or die;
 defined('KOOWA') or die;
 
-echo KFactory::get('admin::com.cci_do.dispatcher')
+echo KFactory::get('admin::com.ccido.dispatcher')
 	->dispatch(KRequest::get('get.view', 'cmd', 'events'));

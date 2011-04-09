@@ -1,6 +1,6 @@
 <?php
 
-class ComCci_doDatabaseRowEvent extends KDatabaseRowDefault {
+class ComCcidoDatabaseRowEvent extends KDatabaseRowDefault {
 
 	public function getMapURL() {
 		$location = str_ireplace(' ', '+', $this->location);

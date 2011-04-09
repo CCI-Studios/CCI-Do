@@ -1,5 +1,5 @@
-CREATE TABLE `jos_cci_do_events` (
-	`cci_do_event_id` SERIAL,
+CREATE TABLE `jos_ccido_events` (
+	`ccido_event_id` SERIAL,
 
 	`title` varchar(100) NOT NULL,
 	`description` text NOT NULL COMMENT '@Filter("html")',
@@ -10,8 +10,8 @@ CREATE TABLE `jos_cci_do_events` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 
-CREATE TABLE `jos_cci_do_messages` (
-  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+CREATE TABLE `jos_ccido_messages` (
+  `ccido_message_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `created_on` datetime NOT NULL,
   `author` varchar(255) NOT NULL,
   `title` varchar(255) NOT NULL,

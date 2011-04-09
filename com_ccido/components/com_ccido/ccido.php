@@ -1,7 +1,7 @@
 <?php
 defined('_JEXEC') or die('Restricted Access');
 
-KLoader::load('site::com.cci_do.mappings');
+KLoader::load('site::com.ccido.mappings');
 
-echo KFactory::get('site::com.cci_do.dispatcher')
+echo KFactory::get('site::com.ccido.dispatcher')
 	->dispatch(KRequest::get('get.view', 'cmd', 'persons'));
