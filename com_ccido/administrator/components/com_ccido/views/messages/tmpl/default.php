@@ -1,5 +1,6 @@
 <? defined('KOOWA') or die(); ?>
 <?= @helper('behavior.tooltip'); ?>
+<script src="media://lib_koowa/js/koowa.js" />
 <style src="media://lib_koowa/css/koowa.css" />
 <style src="media://com_default/css/admin.css" />
 
@@ -25,9 +26,11 @@
 			<tr class="row<?=$index % 2?>">
 				<td align="center"><?=$index?></td>
 				<td><?= @helper('grid.checkbox', array('row'=>$message))?></td>
+				<td><?=$message->author?></td>
 				<td><a href="<?= @route('view=message&id='.$message->id)?>">
 					<?=$message->title?>
 				</a></td>
+				<td><?=$message->description?></td>
 
 				<td align="center"><?= $message->id ?></td>
 			</tr>
@@ -35,7 +38,7 @@
 
 			<? if (!count($messages)): ?>
 			<tr>
-				<td colspan="4" align="center">
+				<td colspan="99" align="center">
 					<?= @text('No messages Available.'); ?>
 				</td>
 			</tr>
