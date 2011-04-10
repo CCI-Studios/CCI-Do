@@ -1,5 +1,5 @@
 <?= JHtml::_('behavior.modal'); ?>
-<style src="media://com_cci_do/css/site.css" />
+<style src="media://com_ccido/css/site.css" />
 
 <h1>Events</h1>
 

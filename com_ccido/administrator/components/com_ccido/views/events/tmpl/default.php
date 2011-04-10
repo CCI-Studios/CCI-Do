@@ -28,7 +28,7 @@
 					<?=$event->title?>
 				</a></td>
 				<td align="center">
-					<a href="<?= $event->google_map_url?>" target="_blank">Link</a>
+					<a href="<?= $event->getmapURL() ?>" target="_blank">Link</a>
 				</td>
 
 				<td align="center"><?= $event->id ?></td>
