@@ -16,11 +16,13 @@
 <div class="ccido-member">
 	<h2>
 		<?= $member->name?>
+		<? if (KFactory::get('lib.joomla.user')->gid >= 21): ?>
 		<div class="right">
 			<a href="#">
 				<img src="/images/M_images/edit.png" />
 			</a>
 		</div>
+		<? endif; ?>
 	</h2>
 	<?= $member->description?>
 </div>

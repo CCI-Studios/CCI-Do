@@ -10,6 +10,7 @@
 <div class="ccido-message">
 	<h2>
 		<?= $message->title?>
+		<? if (KFactory::get('lib.joomla.user')->gid >= 21): ?>
 		<div class="right">
 			<a href="<?=@route('index.php?view=message&tmpl=component&layout=form&id='.$message->id)?>" class="modal" rel="{handler:'iframe'}">
 				<img src="/images/m_images/edit.png" />
@@ -18,6 +19,7 @@
 				<img src="/images/cancel_f2.png" height="18" />
 			</a>
 		</div>
+		<? endif; ?>
 	</h2>
 	<?= $message->description?>
 	<p>- <?= $message->author?></p>
