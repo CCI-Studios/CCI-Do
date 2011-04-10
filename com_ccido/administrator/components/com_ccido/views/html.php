@@ -8,7 +8,7 @@ class ComCcidoViewHtml extends ComDefaultViewHtml {
 			'messages'	=> JText::_('Guestbook'),
 			'links'		=> JText::_('Links'),
 			'albums'	=> JText::_('Photo Albums'),
-			'persons'	=> JText::_('Wedding Party')
+			'members'	=> JText::_('Wedding Party')
 		);
 		parent::__construct($config);
 	}
