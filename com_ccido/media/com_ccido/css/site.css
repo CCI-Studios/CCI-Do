@@ -1,3 +1,20 @@
 .left { float: left; }
 .right { float: right; }
 .clr, .clear { clear: both; }
+
+
+/* albums */
+.ccido-album {
+	float: left;
+	margin: 10px;
+	text-align: center;
+}
+
+
+/* links */
+
+/* wedding party */
+
+/* events/travelinfo */
+
+/* guestbook */
