@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Wedding Party">
+		<message><![CDATA[
+			Check out the party
+		]]></message>		
+	</layout>
+	
+	<url>
+		<param type="list" name="type" default="0" Label="Wedding Party Type">
+			<option value="0">Bridesmaid</option>
+			<option value="1">Groomsman</option>
+		</param>
+	</url>
+</metadata>
