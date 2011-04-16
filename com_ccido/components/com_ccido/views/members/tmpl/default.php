@@ -32,5 +32,5 @@
 	case 0:
 		echo 'See our <a href="'.@route('view=members&type=1').'">Groomsmen</a>'; break;
 	case 1:
-		echo 'See out <a href="'.@route('view=members&type=0').'">Bridesmaids</a>'; break;
+		echo 'See our <a href="'.@route('view=members&type=0').'">Bridesmaids</a>'; break;
 }?>
