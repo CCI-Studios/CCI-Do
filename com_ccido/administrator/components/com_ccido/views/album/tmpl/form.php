@@ -10,7 +10,7 @@
 	class="adminform"
 	name="adminForm">
 <input type="hidden" name="MAX_FILE_SIZE" value="100000" />
-<div style="width:31%; float: left" id="mainform">
+<div style="width:61%; float: left" id="mainform">
 	<fieldset>
 		<legend><?= @text('Album Details')?></legend>
 

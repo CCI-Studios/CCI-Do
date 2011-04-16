@@ -33,7 +33,7 @@
 
 			<? if (!count($links)): ?>
 			<tr>
-				<td colspan="4" align="center">
+				<td colspan="99" align="center">
 					<?= @text('No links Available.'); ?>
 				</td>
 			</tr>

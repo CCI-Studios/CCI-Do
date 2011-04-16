@@ -4,7 +4,7 @@
 <style src="media://com_default/css/form.css" />
 
 <form action="<? @route('id='.$link->id)?>" method="post" class="adminform" name="adminForm">
-<div style="width:31%; float: left" id="mainform">
+<div style="width:61%; float: left" id="mainform">
 	<fieldset>
 		<legend><?= @text('Link Details')?></legend>
 
