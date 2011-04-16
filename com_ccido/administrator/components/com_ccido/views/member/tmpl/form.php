@@ -4,7 +4,7 @@
 <style src="media://com_default/css/form.css" />
 
 <form action="<? @route('id='.$member->id)?>" method="post" class="adminform" name="adminForm">
-<div style="width:31%; float: left" id="mainform">
+<div style="width:61%; float: left" id="mainform">
 	<fieldset>
 		<legend><?= @text('Member Details')?></legend>
 
@@ -19,7 +19,7 @@
 
 	<fieldset>
 		<legend>Description</legend>
-		<?= @helper('editor.display', array('height'=>300, 'name'=>'description'))?>
+		<?= @helper('editor.display', array('height'=>300, 'width'=>'100%', 'name'=>'description'))?>
 	</fieldset>
 </div>
 </form>
