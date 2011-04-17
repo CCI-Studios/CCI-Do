@@ -1,4 +1,5 @@
 <?= JHtml::_('behavior.modal'); ?>
+<style src="media://com_ccido/css/site.css" />
 
 <h1>Events</h1>
 
@@ -7,7 +8,11 @@
 	<h2>
 		<a name="<?=$event->id ?>"><?= $event->title ?></a>
 		<? if (KFactory::get('lib.joomla.user')->gid >= 21): ?>
-			<small><a href="<?= @route('view=event&layout=form&id='.$event->id) ?>">Edit</a></small>
+			<div class="right">
+				<a class="modal" rel="{handler:'iframe'}" href="<?= @route('view=event&layout=form&tmpl=component&id='.$event->id) ?>">
+					<img src="/images/M_images/edit.png" />
+				</a>
+			</div>
 		<? endif; ?>
 	</h2>
 	<?= $event->directions ?>
