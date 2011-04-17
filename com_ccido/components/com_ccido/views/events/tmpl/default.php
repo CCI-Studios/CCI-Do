@@ -1,5 +1,7 @@
-<?= JHtml::_('behavior.modal'); ?>
+<?= JHtml::_('behavior.mootools')?>
+<?= JHtml::_('behavior.modal')?>
 <style src="media://com_ccido/css/site.css" />
+<script src="media://lib_koowa/js/koowa.js" />
 
 <h1>Events</h1>
 

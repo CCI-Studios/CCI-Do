@@ -1,6 +1,7 @@
-<? defined('KOOWA') or die(); ?>
-<?= @helper('behavior.tooltip'); ?>
+<?= JHtml::_('behavior.mootools')?>
+<?= JHtml::_('behavior.modal')?>
 <style src="media://com_ccido/css/site.css" />
+<script src="media://lib_koowa/js/koowa.js" />
 
 <? switch (KRequest::get('get.type', 'int', '-1')) {
 	case 0:

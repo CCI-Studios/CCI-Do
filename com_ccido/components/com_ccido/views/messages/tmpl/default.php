@@ -2,7 +2,6 @@
 <?= JHtml::_('behavior.modal')?>
 <style src="media://com_ccido/css/site.css" />
 <script src="media://lib_koowa/js/koowa.js" />
-<script src="media://com_ccido/js/actions.js" />
 
 <h1>Guestbook</h1>
 
