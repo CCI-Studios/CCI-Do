@@ -13,13 +13,18 @@
 			<?= $link->title?>
 		</a>
 		<? if (KFactory::get('lib.joomla.user')->gid >= 21): ?>
-		<div class="right">
-			<a href="#">
-				<img src="/images/m_image/edit.png" />
-			</a>
-		</div>
+			<div class="right">
+				<a class="modal" rel="{handler:'iframe'}" href="<?= @route('view=link&layout=form&tmpl=component&id='.$link->id) ?>">
+					<img src="/images/M_images/edit.png" />
+				</a>
+			</div>
 		<? endif; ?>
 	</h2>
 	<?= $link->description?>
 </div>
 <? endforeach; ?>
+
+
+<? if (KFactory::get('lib.joomla.user')->gid >= 21): ?>
+	<p><a class="modal" rel="{handler:'iframe'}" href="<?= @route('view=link&layout=form&tmpl=component')?>">Add a new link</a></p>
+<? endif; ?>
