@@ -23,5 +23,9 @@
 <? endforeach; ?>
 
 <? if (KFactory::get('lib.joomla.user')->gid >= 21): ?>
-	<p><a href="<?= @route('view=event&layout=form')?>">Add a new event</a></p>
+	<p>
+		<a class="modal" rel="{handler:'iframe'}" href="<?= @route('view=event&layout=form&tmpl=component')?>">
+			Add a new event
+		</a>
+	</p>
 <? endif; ?>
