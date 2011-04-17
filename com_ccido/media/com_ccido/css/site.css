@@ -14,6 +14,15 @@
 /* links */
 
 /* wedding party */
+.ccido-member {
+	clear: both;
+	margin: 1em 0;
+}
+
+.ccido-member .image {
+	float: left;
+	margin-left: -85px;
+}
 
 /* events/travelinfo */
 

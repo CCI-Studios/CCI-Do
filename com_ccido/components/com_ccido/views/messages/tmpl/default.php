@@ -22,4 +22,5 @@
 </div>
 <? endforeach; ?>
 
-<p>Click <a class="modal" rel="{handler:'iframe'}" href="<?= @route('view=message&layout=form&tmpl=component')?>">here</a> to leave a message for the bride and groom.</p>
+<p>Please leave your words of wisdom, about marriage, love and life.<br/>
+Click <a class="modal" rel="{handler:'iframe'}" href="<?= @route('view=message&layout=form&tmpl=component')?>">here</a> to leave a message for the bride and groom.</p>

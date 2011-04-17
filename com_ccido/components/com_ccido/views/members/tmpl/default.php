@@ -15,6 +15,14 @@
 
 <? foreach ($members as $member): ?>
 <div class="ccido-member">
+	<? if ($member->filename): ?>
+	<div class="image">
+		<a class="modal" rel="{handler:'image'}" href="media://com_ccido/uploads/<?=$member->filename?>">
+			<img src="media://com_ccido/uploads/thumb_<?=$member->filename?>" width="75" height="75" />
+		</a>
+	</div>
+	<? endif; ?>
+	
 	<h2>
 		<?= $member->name?>
 		<? if (KFactory::get('lib.joomla.user')->gid >= 21): ?>
