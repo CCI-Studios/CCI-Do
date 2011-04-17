@@ -19,7 +19,7 @@
 		<?= $member->name?>
 		<? if (KFactory::get('lib.joomla.user')->gid >= 21): ?>
 		<div class="right">
-			<a href="#">
+			<a class="modal" rel="{handler:'iframe'}" href="<?= @route('view=member&layout=form&tmpl=component&id='.$member->id) ?>">
 				<img src="/images/M_images/edit.png" />
 			</a>
 		</div>
@@ -29,9 +29,14 @@
 </div>
 <? endforeach; ?>
 
-<? switch (KRequest::get('get.type', 'int', '-1')) {
+<p><? switch (KRequest::get('get.type', 'int', '-1')) {
 	case 0:
 		echo 'See our <a href="'.@route('view=members&type=1').'">Groomsmen</a>'; break;
 	case 1:
 		echo 'See our <a href="'.@route('view=members&type=0').'">Bridesmaids</a>'; break;
-}?>
+}?></p>
+
+<? if (KFactory::get('lib.joomla.user')->gid >= 21): ?>
+	<p><a class="modal" rel="{handler:'iframe'}" href="<?= @route('view=member&layout=form&tmpl=component')?>">Add a new party member
+		</a></p>
+<? endif; ?>
