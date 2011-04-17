@@ -1,3 +1,6 @@
+<?= JHtml::_('behavior.mootools')?>
+<style src="media://com_ccido/css/modal.css" />
+<script src="media://com_ccido/js/form.js" />
 <script src="media://lib_koowa/js/koowa.js" />
 
 <? if ($event->id): ?>
@@ -6,7 +9,9 @@
 	<h1>New Event Details</h1>
 <? endif; ?>
 
-<form action="<?= @route('id='.$event->id)?>" method="post" name="adminForm">
+<form class="cci-form" saction="<?= @route('id='.$event->id)?>" method="post" name="adminForm">
+	<input type="hidden" name="action" value="save" />
+	
 	<dl>
 		<dt><label for="field_title"><?= @text('Title')?>:</label></dt>
 		<dd><input type="text" name="title" id="field_title" value="<?= $event->title?>" /></dd>
@@ -27,13 +32,6 @@
 	</dl>
 
 	<p style="clear:both">
-		<a href="#" onclick="new Koowa.Form({
-			method:'post',
-			url:'<?= @route('view=event&id='.$event->id)?>',
-			element: 'adminForm',
-			params: { action:'apply', _token:'<?= JUtility::getToken()?>'}
-		}).submit();
-		window.parent.SqueezeBox.close();">Save</a>
+		<input type="submit" value="Save" />
 	</p>
-
 </form>
