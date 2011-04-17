@@ -19,11 +19,11 @@
 
 	<dl>
 		<dt><label for="field_directions"><?= @text('Directions')?>:</label></dt>
-		<dd><?= @helper('admin::com.default.template.helper.editor.display', array('name'=>'directions', 'width'=>300, 'height'=>200))?></dd>
+		<dd><textarea name="directions" id="field_directions" width="100%" rows="5"><?= $event->directions ?></textarea></dd>
 	</dl>
 	<dl>
 		<dt><label for="field_description"><?= @text('Description')?>:</label></dt>
-		<dd><?= @helper('admin::com.default.template.helper.editor.display', array('width'=>300, 'height'=>200))?></dd>
+		<dd><textarea name="description" id="field_description" width="100%" rows="5"><?= $event->description ?></textarea></dd>
 	</dl>
 
 	<p style="clear:both">

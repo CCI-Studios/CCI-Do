@@ -21,8 +21,8 @@ CREATE TABLE `#__ccido_events` (
 
 	`title` varchar(100) NOT NULL,
 	`location` varchar(150) NOT NULL,
-	`description` text NOT NULL COMMENT '@Filter("html")',
-	`directions` text NOT NULL COMMENT '@Filter("html")',
+	`description` text NOT NULL,
+	`directions` text NOT NULL,
 
 	PRIMARY KEY (`ccido_event_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
