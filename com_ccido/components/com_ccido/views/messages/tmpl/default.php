@@ -14,9 +14,6 @@
 			<a href="<?=@route('index.php?view=message&tmpl=component&layout=form&id='.$message->id)?>" class="modal" rel="{handler:'iframe'}">
 				<img src="/images/m_images/edit.png" />
 			</a>
-			<a href="">
-				<img src="/images/cancel_f2.png" height="18" />
-			</a>
 		</div>
 		<? endif; ?>
 	</h2>
@@ -25,4 +22,4 @@
 </div>
 <? endforeach; ?>
 
-<?= @template('default_form') ?>
+<p>Click <a class="modal" rel="{handler:'iframe'}" href="<?= @route('view=message&layout=form&tmpl=component')?>">here</a> to leave a message for the bride and groom.</p>

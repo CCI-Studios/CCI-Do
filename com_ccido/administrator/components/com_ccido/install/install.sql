@@ -56,6 +56,6 @@ CREATE TABLE `#__ccido_messages` (
   `author` varchar(255) NOT NULL,
   `title` varchar(255) NOT NULL,
 
-  `description` text NOT NULL COMMENT '@Filter("html")',
+  `description` text NOT NULL,
   PRIMARY KEY (`ccido_message_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
