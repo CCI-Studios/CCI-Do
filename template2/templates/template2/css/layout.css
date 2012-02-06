@@ -63,3 +63,6 @@ body { background: black url(../images/temp-bg.jpg) top center no-repeat; }
 #body > div { background: url(../images/temp1.jpg) no-repeat; }
 /*this removes the hover box with image # in gallery*/
 div#shadowbox_container + div {display: none;}
+
+/*this removes back button in gallery*/
+.gallery .back_button {display: none;}
