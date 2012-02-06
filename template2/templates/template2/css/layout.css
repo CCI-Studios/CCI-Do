@@ -60,7 +60,7 @@ body.home #body > div > div > div {
 
 /* temp */
 body { background: black url(../images/temp-bg.jpg) top center no-repeat; }
-.home #body > div { background: url(../images/About-Us.jpg) no-repeat; }
+.home #body > div { background: url(../images/Home.jpg) no-repeat; }
 .about #body > div { background: url(../images/About-Us.jpg) no-repeat; }
 .travel-info #body > div { background: url(../images/travelInfoLinks.jpg) no-repeat; }
 .events #body > div { background: url(../images/Events.jpg) no-repeat; }
