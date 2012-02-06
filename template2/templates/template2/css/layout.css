@@ -42,7 +42,7 @@ body.home #body > div > div {
 }
 #body > div > div > div { /* contents wrapper 2 */
 	background: url(../images/content-frill.png) 52px 0 repeat-y;
-	padding: 35px;
+	padding: 35px 35px 35px 105px;
 }
 body.home #body > div > div > div {
 	background: none;
