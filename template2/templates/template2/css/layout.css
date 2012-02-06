@@ -60,7 +60,17 @@ body.home #body > div > div > div {
 
 /* temp */
 body { background: black url(../images/temp-bg.jpg) top center no-repeat; }
-#body > div { background: url(../images/temp1.jpg) no-repeat; }
+.home #body > div { background: url(../images/About-Us.jpg) no-repeat; }
+.about #body > div { background: url(../images/About-Us.jpg) no-repeat; }
+.travel-info #body > div { background: url(../images/travelInfoLinks.jpg) no-repeat; }
+.events #body > div { background: url(../images/Events.jpg) no-repeat; }
+.links #body > div { background: url(../images/Links.jpg) no-repeat; }
+.events #body > div { background: url(../images/Events.jpg) no-repeat; }
+.wedding-party #body > div { background: url(../images/weddingParty.jpg) no-repeat; }
+.gallery #body > div { background: url(../images/About-Us.jpg) no-repeat; }
+.guest-book #body > div { background: url(../images/Guestbook.JPG) no-repeat; }
+.countdown #body > div { background: url(../images/Countdown.JPG) no-repeat; }
+
 /*this removes the hover box with image # in gallery*/
 div#shadowbox_container + div {display: none;}
 
