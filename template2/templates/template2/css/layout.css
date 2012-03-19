@@ -69,7 +69,10 @@ body { background: black url(../images/temp-bg.jpg) top center no-repeat; }
 .events #body > div { background: url(../images/Events.jpg) no-repeat; }
 .wedding-party #body > div { background: url(../images/weddingParty.jpg) no-repeat; }
 .gallery #body > div { background: url(../images/Countdown.JPG) no-repeat; }
-.guest-book #body > div { background: url(../images/Guestbook.JPG) no-repeat; }
+.guest-book #body > div { 
+	background: url(../images/Guestbook.JPG) no-repeat; 
+	overflow: scroll; 
+}
 
 /*this removes the hover box with image # in gallery*/
 div#shadowbox_container + div {display: none;}
