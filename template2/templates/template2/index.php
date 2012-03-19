@@ -29,6 +29,7 @@ $testing = "true";
 	<div id="wrapper">
 		<div id="body"><div><div><div>
 			<jdoc:include type="component" />
+			<jdoc:include type="modules" name="content" style="xhtml" />
 		</div></div></div></div>
 		
 		<div id="siteby">
