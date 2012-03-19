@@ -11,7 +11,6 @@ JHtml::_('behavior.mootools');
 <html>
 <head>
 	<jdoc:include type="head" />
-	
 	<!-- styles -->
 	<link href="/templates/template2/css/template.css" rel="stylesheet" /> 
 	<!-- scripts -->
@@ -32,7 +31,6 @@ JHtml::_('behavior.mootools');
 			<jdoc:include type="component" />
 			<jdoc:include type="modules" name="content" style="xhtml" />
 		</div></div></div></div>
-		
 		<div id="siteby">
 			<a href="http://www.ccistudios.com" target="_blank">
 				<img src="/templates/template2/images/cci.png" />
