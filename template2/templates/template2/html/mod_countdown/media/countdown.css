@@ -1,0 +1,27 @@
+.countdown {
+	margin: 4px 0;
+}
+
+.countdown > div {
+	float: left;
+	width: 60px;
+}
+
+.countdown > div div:first-child {
+	color: #ec008c;
+	font-size: 26px;
+	text-align: center;
+	letter-spacing: 4px;
+}
+
+.countdown > div div + div {
+	position: relative;
+	left: -1px;
+	margin-top: 5px;
+	
+	color: #fff;
+	font-size: 9px;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 1em;
+}
