@@ -1,0 +1,5 @@
+.countdown {
+	display: inline-block;
+}
+
+.countdown > div div:first-child { color: #860036;}
