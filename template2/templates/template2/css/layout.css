@@ -36,7 +36,13 @@ body > div {
 	position: absolute;
 	width: 100%;
 }
-.guest-book #body > div > div { top: 0; position: relative; margin-top: 340px; }
+.guest-book #body > div > div { 
+	background: url('../images/guestbook-bg.png') repeat;
+	top: 0; 
+	position: relative; 
+	margin-top: 340px;
+}
+	
 body.home #body > div > div { 
 	background: black;
 	bottom: 31px;
