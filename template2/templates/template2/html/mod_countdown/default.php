@@ -1,11 +1,11 @@
 <div class="countdown" data-date="<?= $date ?>">
 	<div class="days">
 		<div><?= $days ?></div>
-		<div>DAYS</div>
+		<div>Days</div>
 	</div>
 	<div class="hours">
 		<div><?= $hours ?></div>
-		<div>HOURS</div>
+		<div>Hours</div>
 	</div>
 	<div class="minutes">
 		<div><?= $minutes ?></div>
