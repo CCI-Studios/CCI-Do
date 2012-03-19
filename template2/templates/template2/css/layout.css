@@ -35,9 +35,10 @@ body > div {
 	left: 0;
 	position: absolute;
 	width: 100%;
+	*zoom: 1;
 }
-.guest-book #body > div > div { 
-	background: url('../images/guestbook-bg.png') repeat;
+body.guest-book #body > div > div { 
+	background: url('../images/guestbook-bg.png') repeat;	
 	top: 0; 
 	position: relative; 
 	margin-top: 340px;
@@ -77,7 +78,7 @@ body { background: black url(../images/temp-bg.jpg) top center no-repeat; }
 .gallery #body > div { background: url(../images/Countdown.JPG) no-repeat; }
 .guest-book #body > div { 
 	background: url(../images/Guestbook.JPG) no-repeat; 
-	overflow: scroll; 
+	overflow: scroll;
 }
 
 /*this removes the hover box with image # in gallery*/
