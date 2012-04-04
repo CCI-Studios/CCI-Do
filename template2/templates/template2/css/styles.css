@@ -3,3 +3,8 @@
 .clear { clear: both; }
 
 .hidden { display: none; }
+
+#recaptcha_widget_div{
+	position: relative;
+	left: -40px;
+}
